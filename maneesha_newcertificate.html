@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IssueCertificate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="p-12">
+    
+    <h2 class="font-serif text-2xl ml-2 font-bold" >Certificate Dapp</h2>
+    
+        <div class="p-8 "> 
+            <ul class="flex gap-4 list-inside place-content-end">
+                <li class=""><a href="./maneesha_home.html"><button class="border-2 rounded-lg p-2 bg-gray-200 hover:bg-blue-500 hover:text-white">Home</button></a></li>
+                <li class=""><a href="./maneesha_newcertificate.html"><button class="border-2 rounded-lg p-2 bg-gray-200 hover:bg-blue-500 hover:text-white">Issue Certificate</button></a></li>
+            </ul>
+            </div> 
+
+    
+        <div class="p-24 w-9/12 h-4/5 shadow">
+        <h1 class="font-serif text-3xl font-bold">Issue New Certificate</h1>
+        <br>
+        <div class="ml-10">
+        <table class="table-fixed  border-spacing-4  border-slate-400">
+            <tr>    
+            </tr>
+            <tr class="text-justify"> 
+                <td class="text-justify">Select Course</td> 
+                <td class="w-96 h-8 p-4">
+                    <select class="border border-solid border-2 rounded-lg w-96 h-10" name="course" >
+                        <option value="cba" selected>Certified Blockchain Associate</option>
+                        <option value="ced" selected>Certified Ethereum Developer</option>
+                        <option value="deb" selected>Developer Essentials for Blockchain</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                
+            </tr>
+            <tr class="text-justify">
+                <td class="text-justify">Certificate Id</td>
+                <td class="w-96 h-8 p-4"><input class="border border-solid border-2 rounded-lg w-96 h-10" type="text" name="id" placeholder="Certificate ID"></td>  
+            </tr>
+            <tr>
+                
+            </tr>
+            <tr class="text-justify">
+                <td class="text-justify">Candidate Name</td>
+                <td class="w-96 h-8 p-4"><input class="border border-solid border-2 rounded-lg w-96 h-10" type="text" name="id" placeholder="Candidate Name"></td>
+            </tr>
+            <tr>
+                
+            </tr>
+            <tr class="text-justify">
+                <td class="text-justify">Select Grade</td>
+                <td class="w-96 h-8 p-4">
+                    <select class="border border-solid border-2 rounded-lg w-96 h-10" name="grade">
+                        <option value="s" selected>S</option>
+                        <option value="a" selected>A</option>
+                        <option value="b" selected>B</option>
+                        <option value="c" selected>C</option>
+                        <option value="d" selected>D</option>
+    
+                    </select>
+                </td>
+            </tr>
+            <tr>
+               
+            </tr>
+            <tr class="text-justify">
+                <td class="text-justify">Issue Date</td>
+                <td class="w-96 h-8 p-4"><input class="border border-solid border-2 rounded-lg w-96 h-10" type="date" id="issuedate" name="issuedate"></td>
+            </tr>
+            <tr>
+                
+                <td style="text-align: justify;">
+                    <a href="./maneesha_kbacert.html">
+                    <button class="bg-sky-300 border-2 rounded-lg p-2 mt-6 ml-24">Issue Certificate</button>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </div>
+
+</body>
+</html>
